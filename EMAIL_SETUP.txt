@@ -1,0 +1,26 @@
+EMAIL SERVER SETUP INSTRUCTIONS
+================================
+
+1. INSTALL PYTHON DEPENDENCIES:
+   Open Command Prompt in C:\login-system\ and run:
+   pip install -r requirements.txt
+
+2. CONFIGURE EMAIL SETTINGS:
+   Edit server.py and replace:
+   - "your-email@gmail.com" with your Gmail address
+   - "your-app-password" with your Gmail App Password
+
+3. GMAIL APP PASSWORD SETUP:
+   - Go to Google Account settings
+   - Enable 2-Factor Authentication
+   - Generate App Password for "Mail"
+   - Use this App Password in server.py
+
+4. START THE SERVER:
+   python server.py
+
+5. OPEN WEBSITE:
+   Open index.html in browser
+   The helpdesk form will now send real emails!
+
+NOTE: Server must be running on localhost:5000 for emails to work.
